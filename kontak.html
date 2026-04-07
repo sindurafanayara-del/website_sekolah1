@@ -1,0 +1,96 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMULIR</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e9f2fb;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .column {
+      flex: 1;
+      min-width: 280px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background: #28a745;
+      color: #fff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #218838;
+    }
+    .contact-info {
+      font-size: 15px;
+    }
+    .contact-info p {
+      margin: 10px 0;
+    }
+    .contact-info a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>FORMULIR</h2>
+    <div class="row">
+      <!-- Form -->
+      <div class="column">
+        <h3>Send us a message</h3>
+        <form>
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="column contact-info">
+        <h3>Contact Information</h3>
+        <p>📞 <a href="tel:‪+628112091027‬">0811-2091-027</a></p>
+        <p>📧 <a href="mailto:smkangkasa1margahayu@gmail.com">smkangkasa1margahayu@gmail.com</a></p>
+        <p>📍 JL. HERCULES IV NO. 1 MARGAHAYU,<br>
+           Sulaeman, Kec. Margahayu, Kab. Bandung,<br>
+           Prov. Jawa Barat</p>
+        <p>🌐 <a href="https://www.smkangkasa1margahayu.sch.id">www.smkangkasa1margahayu.sch.id</a></p  >
+           
+      </div>
+    </div>
+  </div>
+</body>
+</html>

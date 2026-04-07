@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Ekskul & Kegiatan Tahunan</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: skyblue;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, white, #b3e0ff);
+            color: #333;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        .container {
+            width: 85%;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0px 6px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            transition: background 0.3s;
+            font-size: 1.05em;
+        }
+        li:hover {
+            background: #e8f5e9;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+       
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daftar Ekskul & Kegiatan Tahunan</h1>
+        <p>Sekolah Angkasa 1 Margahayu</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="card">
+            <h2>🌟 Daftar Ekstrakurikuler</h2>
+            <ul>
+                <li>🏕 Pramuka</li>
+                <li>🎖 Paskibra</li>
+                <li>🏀 Basket</li>
+                <li>⚽ Futsal</li>
+                <li>🏐 Volly</li>
+                <li>🎭 Teater</li>
+                <li>🗣 English Club</li>
+                <li>⛑ PMR</li>
+                <li>⚽ Sepak Bola</li>
+                <li>🪂 Paralayang</li>
+                <li>🙏 IRMA (Ikatan Remaja Masjid)</li>
+                <li>🏕 Irpasas</li>
+                <li>💻 Informatika Club</li>
+                <li>🥋 Perisai Diri</li>
+                <li>🥁 Marching Band</li>
+                <li>🎨 Seni dan Budaya</li>
+            </ul>
+        </div>
+
+       
+        <div class="card">
+            <h2>📅 Kegiatan Tahunan</h2>
+            <ul>
+                <li>👋 MPLS</li>
+                <li>🇮🇩 HUT Angkasa dan RI</li>
+                <li>🎉 PORSENI</li>
+                <li>🐪 Isra Mi'Raj</li>
+                <li>🏕 CPDBN</li>
+                <li>🏆 Class Meeting</li>
+                <li>🎓 Perpisahan</li>
+                <li>🕋 Maulid</li>
+                <li>👳‍♀ SmartTren</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Sekolah Angkasa 1 Margahayu</p>
+    </footer>
+</body>
+</html>
